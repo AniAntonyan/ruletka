@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hy">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Մուլտֆիլմային Ռուլետկա</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🎡 Ռուլետկա</h1>
+    <canvas id="wheel" width="400" height="400"></canvas>
+    <br />
+    <button onclick="spinPlayer()">Պտտել Դուք</button>
+    <button onclick="spinAI()">Պտտել Ռոբոտը</button>
+    <div id="result"></div>
+    <div id="ai-result"></div>
+    <div id="history"></div>
+
+    <audio
+      id="tickSound"
+      src="https://www.soundjay.com/button/beep-07.wav"
+      preload="auto"
+    ></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
